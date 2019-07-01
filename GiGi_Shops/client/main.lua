@@ -69,10 +69,9 @@ local Keys = {
 			  title    = 'Bem Vindo a GiGi_Shop',
 			  align    = 'top-right',
 			  elements = {
-				  {label = 'Pao (5$)', value = 'water_1', item = 'pao', price = 5},
-				  {label = 'Agua (10$)', value = 'water_1', item = 'agua', price = 10},
-				  {label = 'Tabaco (15$)', value = 'water_1', item = 'cigarro', price = 15},
-			  }
+				  {label = 'Pao (5$)', value = 'water_1', item = 'bread', price = 5},
+				  {label = 'Agua (10$)', value = 'water_1', item = 'water', price = 10},
+			}
 		  },
 		  function(data, menu)
 			  local item = data.current.item
