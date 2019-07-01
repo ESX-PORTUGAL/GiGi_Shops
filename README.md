@@ -1,1 +1,1 @@
-# GiGi_Shops
+# GiGi_Shops V2
