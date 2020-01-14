@@ -9,5 +9,7 @@ AddEventHandler('GiGi_Shops:buy', function(item, price)
 	if(xPlayer.getMoney() >= price) then
 		xPlayer.removeMoney(price)
 		xPlayer.addInventoryItem(item, 1)
-	end
-end)
+               else
+		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'Nao tens dinheiro suficiente' })
+	     end
+         end)
